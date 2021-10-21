@@ -1,22 +1,14 @@
-import Button from 'react-bootstrap/Button'
 import Nav from 'react-bootstrap/Nav'
+import Cartwidget from './CartWidget'
 
 const Navbar = () => {
     return(
         <>
-        <Nav id="navbar">
-            <h1>FN</h1>
+            <Nav>
             <a href="index.html">Home</a>
             <a href="#!">Sobre nosotrxs</a>
+            <Cartwidget/>
         </Nav>
-        <header id="main-header">
-                <h1>Futura Nostalgia</h1>
-                    <p>Celebramos lo viejo y lo nuevo de la música</p>
-                    <Button>Remeras</Button>
-                    <Button>Buzos</Button>
-                    <Button>Camperas</Button>
-                <Button>Borrar filtros</Button>
-        </header>
         </>
     )
 }

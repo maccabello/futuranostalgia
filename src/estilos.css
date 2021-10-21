@@ -9,6 +9,10 @@ html , body {
     background-color: #0c0d0e;
 }
 
+body {
+    align-items: center;
+}
+
 #main-header {
     padding: 0.5rem 1rem; 
     color: rgb(0, 255, 200);
@@ -20,7 +24,7 @@ html , body {
 
 #navbar{
     padding: 0.5rem 1rem; 
-    color: yellow;
+    color: #d6a506;;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,10 +32,25 @@ html , body {
 }
 
 h1 {
-    color: yellow;
+    color: #d6a506;;
 }
 
 p {
     color: white;
 }
 
+.btn-primary {
+    border-color: #0c0d0e;
+    color: #d6a506;;
+    text-decoration-color: #d6a506;;
+    background-color: #0c0d0e;
+}
+
+.button:hover{
+    text-decoration-line: underline;
+}
+
+#cuerpo {
+padding: 2rem;
+align-items: center;
+}

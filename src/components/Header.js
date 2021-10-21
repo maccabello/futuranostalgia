@@ -3,7 +3,8 @@ import Navbar from "./Navbar"
 const Header = () => {
     return (
         <>
-            <header>
+            <header id="main-header" className="">
+                <h1>FN</h1>
             <Navbar/>
             </header>
         </>
