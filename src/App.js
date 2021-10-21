@@ -1,10 +1,14 @@
-import Header from "./components/NavBar"
+import Header from "./components/Header"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+
 
 const App = () => {
     return (
         <>
-        <Header/>  
-        <footer>Copyright 2021</footer>
+        <Header/>
+        <Navbar/>
+        <Footer/>
         </>
     )
 
