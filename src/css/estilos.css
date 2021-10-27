@@ -76,4 +76,5 @@ button{
     color: #d6a506;
     border-radius: 25px;
     padding: 7px;
+    align-content: flex-start;
 }
