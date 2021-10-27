@@ -13,6 +13,7 @@ body {
     align-items: center;
 }
 
+
 #main-header {
     padding: 0.5rem 1rem; 
     color: rgb(0, 255, 200);
@@ -41,8 +42,8 @@ p {
 
 .btn-primary {
     border-color: #0c0d0e;
-    color: #d6a506;;
-    text-decoration-color: #d6a506;;
+    color: #d6a506;
+    text-decoration-color: #d6a506;
     background-color: #0c0d0e;
 }
 
@@ -53,4 +54,26 @@ p {
 #cuerpo {
 padding: 2rem;
 align-items: center;
+}
+
+span{
+    color: #d6a506;
+}
+
+.card{    
+    border-color: #d6a506;
+    background-color: #0c0d0e;
+    color: #d6a506;
+    padding: 7px;
+    align-items: center;
+    font-weight: 700;
+    width: 220px;
+}
+
+button{
+    border-color: #d6a506;
+    background-color: #0c0d0e;
+    color: #d6a506;
+    border-radius: 25px;
+    padding: 7px;
 }
