@@ -1,0 +1,66 @@
+{
+    "Indumentaria": [{
+            "id": 1,
+            "title": "Harry Styles",
+            "description": "buzo",
+            "precio": 4000,
+            "img": "http://placehold.it/100x100",
+            "stock": 18
+        },
+        {
+            "id": 2,
+            "title": "David Bowie",
+            "description": "remera",
+            "precio": 2550,
+            "img": "http://placehold.it/100x100",
+            "stock": 13
+        },
+        {
+            "id": 3,
+            "title": "Genesis",
+            "description": "Campera",
+            "precio": 4000,
+            "img": "http://placehold.it/100x100",
+            "stock": 24
+        },
+        {
+            "id": 4,
+            "title": "Lana del Rey",
+            "description": "vestido",
+            "precio": 3550,
+            "img": "http://placehold.it/100x100",
+            "stock": 9
+        },
+        {
+            "id": 5,
+            "title": "Elton John",
+            "description": "Campera",
+            "precio": 4000,
+            "img": "http://placehold.it/100x100",
+            "stock": 3
+        },
+        {
+            "id": 6,
+            "title": "Tina Turner",
+            "description": "remera",
+            "precio": 2500,
+            "stock": 40
+        },
+        {
+            "id": 7,
+            "title": "Doja Cat",
+            "description": "buzo",
+            "precio": 4000,
+            "img": "http://placehold.it/100x100",
+            "stock": 30
+        },
+        {
+            "id": 8,
+            "title": "Fleetwood Mac",
+            "description": "Remera",
+            "precio": 2500,
+            "img": "http://placehold.it/100x100",
+            "stock": 17
+        }
+    ]
+}
