@@ -2,6 +2,16 @@ import { useEffect, useState } from "react";
 import Item from "./Item"
 
 const ItemList = () => {
+    const [contador,setContador] = useState(0)
+    const sumarContador = () => {
+        setContador(contador + 1)
+
+    }
+    const restarContador = () => {
+        setContador(contador - 1)
+
+    }
+
     const [Productos, setProductos] = useState([]);
     useEffect(() => {
     setTimeout(() => {
@@ -21,8 +31,13 @@ const ItemList = () => {
         {Productos.map((e,i)=>{
             return (
             <>
+                <div className="card">
                 <p key={e.id}>{e.title}  {e.description} {e.precio} {e.stock}</p>
                 <img key={i.id} alt='img' src={e.img}/>
+        <p>Número de productos: {contador}</p>
+        <button onClick={sumarContador}>Agregar</button>
+        <button onClick={restarContador}>Restar</button>
+        </div>
                 <Item/>
             </>
             );
